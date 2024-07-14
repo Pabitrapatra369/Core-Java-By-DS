@@ -1,0 +1,14 @@
+class p 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("parent main");
+	}
+}
+class c extend p
+{
+    public static void main(String[] args) 
+	{
+		System.out.println("child main");
+	}
+}
